@@ -2,7 +2,6 @@ package commonLib;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 
 
 import org.apache.log4j.Logger;
@@ -12,7 +11,6 @@ import org.ini4j.InvalidFileFormatException;
 
 public class CommonLib extends ObjectDeclaration {
 	private static Logger logger = Logger.getLogger(CommonLib.class.getName());
-	public static ArrayList<String> windowHandleList = new ArrayList<String>();
 
 	public static String getConfigValue(String section, String key) {
 		String value = "";
